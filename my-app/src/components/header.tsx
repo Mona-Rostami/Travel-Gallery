@@ -11,42 +11,50 @@ function Header() {
     Setnave(!Nv);
   };
   return (
-    <div className="  w-[100%] h-[100vh]  ">
-      <div
-        onClick={menue}
-        className=" md:hidden absolute top-[15px] left-[93vw]"
-      >
-        <CgFormatJustify size={"19px"} />
+    <div className=" w-full h-screen bg-cover  ">
+      <div onClick={menue} className="  md:hidden absolute right-2 top-16 ">
+        <CgFormatJustify size={"19px"} color="#E8F9FD" />
       </div>
-      <ul className=" max-md:hidden px-4 flex justify-end  pl-3">
-        <li className="p-3 z-10">gallery</li>
-        <li className="p-3 z-10">gallery</li>
-        <li className="p-3 z-10">gallery</li>
-        <li className="p-3 z-10">gallery</li>
-      </ul>
-      <div className=" absolute flex w-[100%] bg-cover bg-amber-600 max-md:justify-end max-md:mt-12 -translate-y-12  ">
-        <div className="p-3">
-          {" "}
-          <FaFacebook />
+
+      <div className="   w-full  bg-cover bg-emerald-700/90">
+           
+            
+            
+      <div className="md:mr-[2%] md:p-[2%] p-2"> <ul className="  max-md:hidden  text-2xl md:text-[3vw]  flex justify-end  gap- max-md:translate-y-[2vh] ">
+          <li className="p-3 ">gallery</li>
+          <li className="p-3 ">gallery</li>
+          <li className="p-3 ">gallery</li>
+          <li className="p-3 ">gallery</li>
+        </ul>
+         <div className="  flex w-full h-7 pt-2 pl-3 gap-[5%] md:translate-y-[-4vh] lg:translate-y-[-3vh] md:text-[3vh]">
+           <FaFacebook color="#E8F9FD" />
+            
+           
+            
+              <IoLogoInstagram  color="#E8F9FD"/>
+            
+            
+              <FaTelegram color="#E8F9FD" />
+           
+           
+              <FaLinkedin  color="#E8F9FD"/>
+         </div>
         </div>
-        <div className="p-3">
-          {" "}
-          <IoLogoInstagram />
-        </div>
-        <div className="p-3">
-          <FaTelegram />
-        </div>
-        <div className="p-3">
-          <FaLinkedin />
-        </div>
+       
+      
       </div>
+
       {/* mobile */}
 
       <div
         onClick={menue}
-        className={Nv ? "absolute  w-[100%] h-[100vh]   " : "hidden"}
+        className={
+          Nv
+            ? " overflow-hidden md:hidden h-screen  left-[-100%] ease-in duration-300 flex-col  "
+            : " absolute left-[-100%] ease-in duration-500"
+        }
       >
-        <ul className=" text-[20px]  h-[100vh] w-[100%]  bg-black/85 flex  flex-col gap-y-[80px]  justify-center items-center text-amber-50">
+        <ul className="  absolute top-[14vw] text-[20px]  h-screen w-[100%]  bg-black/95 flex  flex-col gap-y-[80px]  justify-center items-center text-amber-50 ">
           <li>
             <a href="#gallery">gallery</a>
           </li>
