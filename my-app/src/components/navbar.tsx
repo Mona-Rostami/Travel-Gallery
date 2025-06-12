@@ -12,11 +12,11 @@ function Navbar() {
       </div>
                {/* <button  className=" translate-x-[-10%] h-10 "> Get a Free Quote</button> */}
 
-      <div className=" max-md:hidden flex ">
-        <div className="md:text-[3vw] mr-[1vw] translate-y-[-5%] ">
+      <div className=" max-md:hidden flex translate-y-[30%] ">
+        <div className="md:text-[3vw] mr-[1vw]  ">
           <p className="">9am </p>
         </div>
-        <div className=" md:text-[3vw] mr-[2vw]  translate-y-[10%]">
+        <div className=" md:text-[3vw] mr-[2vw] ">
           <LuClock2 />
         </div>
 
