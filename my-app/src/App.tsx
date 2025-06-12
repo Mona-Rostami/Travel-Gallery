@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Photo from "./components/photo";
 import Massage from "./components/massege";
+import Album from "./components/album";
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Photo />
       <Gallery />
+      <Album/>
       <Massage />
     </div>
   );

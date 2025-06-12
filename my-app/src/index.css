@@ -8,11 +8,13 @@
 }
 
 @layer base{
+    
     html{
-        @apply scroll-smooth
+        
+        @apply scroll-smooth *:box-border
     }
    body{
-    @apply font-[Roboto] m-0 p-0
+    @apply font-[Roboto] *:m-0 *:p-0
    }
    button{
      background:linear-gradient(to right ,var(--teal-light) ,var(--navy-darck) )
