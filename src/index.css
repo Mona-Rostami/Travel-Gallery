@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+:root{
+    --teal-light:#00ADB5;
+    --navy-darck:#112D4E;
+   
+}
+
+    
+    html{
+        
+        scroll-behavior:smooth; 
+        box-sizing:border-box;
+    }
+   body{
+    font-family:'Roboto';
+    margin:0;
+    padding: 0;
+   }
+   button{
+     background:linear-gradient(to right ,var(--teal-light) ,var(--navy-darck) )
+   }
