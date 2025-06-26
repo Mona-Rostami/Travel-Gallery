@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+@import "tailwindcss";
+:root{
+    --primary-darck:#bebef7;
+    --primary-light:#133a8d;
+}
+ @layer base{
+    html{
+        @apply scroll-smooth
+    }
+    body{
+        @apply font-[display] overflow-x-hidden
+    }
+    li{
+        @apply p-4 text-sm
+    }
+    button{
+        @apply px-4 py-2 border text-white;
+         background-color:var( --primary-light);
+    }
+h2{
+@apply text-xl font-bold
+}
+ }
