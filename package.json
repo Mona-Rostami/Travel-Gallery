@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mona-rostami.github.io/Travel-Gallery",
+  "homepage": "https://github.com/Mona-Rostami/Travel-Gallery",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
