@@ -6,6 +6,4 @@ export default defineConfig({
     tailwindcss(),
     react(),
   ],
-      base:'/Travel-Gallery/'
-
 })
