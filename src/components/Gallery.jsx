@@ -3,7 +3,7 @@ function Gallery(){
     return(
         <div className='max-w-[1140px]  md:flex m-auto mt-[-2vh] object-cover'>
             <div className='relative p-4'>
-                 <img  className='md:h-[30vh] md:w-[38vw] h-[60vw]'src="https://www.adventureiran.com/wp-content/uploads/2021/05/Shikhlotfollah-mosque-Imam-squre-Esfahan-UNESCO-site-Iran-ADVENTUREIRAN-1500-1140x530.jpg" alt=""/>
+                 <img  className='md:h-[30vh] md:w-[38vw] h-[60vw]'src="https://cdn01.eavartravel.com/2023/8/28f1e2ea-6db7-4612-917c-fdc4e30163e3.jpg" alt=""/>
                  <h1 className=' absolute z-10 left-[20%] top-[15%] text-white text-3xl  font-medium'>Esfahan</h1>
 
             </div>
